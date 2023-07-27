@@ -5,7 +5,7 @@ function fibonacci(num) {
 	}else if(num==1){
 		return 1;
 	}
-	var i = 2;
+	var i = 3;
 	let a = 0;
 	let b = 1;
 	while (i<=num) {
@@ -16,3 +16,5 @@ function fibonacci(num) {
 	}
 	return b;
 }
+
+module.exports = fibonacci;
